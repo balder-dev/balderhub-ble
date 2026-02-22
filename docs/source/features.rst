@@ -8,20 +8,45 @@ This section describes all features that are shipped with this package.
 Scenario Features
 =================
 
-.. note::
-    This package does not provide any scenario features
+.. autoclass:: balderhub.ble.lib.scenario_features.AdvertisementObserverFeature
+    :members:
 
-.. todo add your features with .. autoclass
-    .. autoclass:: balderhub.ble.lib.scenario_features.MyScenarioFeature
-        :members:
+.. autoclass:: balderhub.ble.lib.scenario_features.BleDeviceConfig
+    :members:
+
+.. autoclass:: balderhub.ble.lib.scenario_features.DeviceInformationConfig
+    :members:
+
+GATT Features
+-------------
+
+.. autoclass:: balderhub.ble.lib.scenario_features.gatt.BaseGattProfileFeature
+    :members:
+
+.. autoclass:: balderhub.ble.lib.scenario_features.gatt.BaseGattServiceFeature
+    :members:
+
+.. autoclass:: balderhub.ble.lib.scenario_features.gatt.GattBatteryServiceFeature
+    :members:
+
+.. autoclass:: balderhub.ble.lib.scenario_features.gatt.GattControllerFeature
+    :members:
+
+.. autoclass:: balderhub.ble.lib.scenario_features.gatt.GattDeviceInformationServiceFeature
+    :members:
+
+.. autoclass:: balderhub.ble.lib.scenario_features.gatt.GattHeartRateProfileFeature
+    :members:
+
+.. autoclass:: balderhub.ble.lib.scenario_features.gatt.GattHeartRateServiceFeature
+    :members:
 
 
 Setup Features
 ==============
 
-.. note::
-    This package does not provide any setup features.
+.. autoclass:: balderhub.ble.lib.setup_features.BleakGattControllerFeature
+    :members:
 
-.. todo add your features with .. autoclass
-    .. autoclass:: balderhub.ble.lib.setup_features.MySetupFeature
-        :members:
+.. autoclass:: balderhub.ble.lib.setup_features.BleakAdvertisementObserverFeature
+    :members:

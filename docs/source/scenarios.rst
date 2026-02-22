@@ -5,10 +5,23 @@ Scenarios describe **what you need**. They define the tests and the necessary de
 scenarios that are implemented in this BalderHub package.
 
 
-.. note::
-    This BalderHub project doesn't have any scenarios.
+Battery Service
+===============
 
+.. autoclass:: balderhub.ble.scenarios.ScenarioBatteryService
+    :members:
 
-.. todo add your scenarios with .. autoclass
-    .. autoclass:: balderhub.ble.scenarios.ScenarioMyTest
-        :members:
+Device Information Service
+==========================
+
+.. autoclass:: balderhub.ble.scenarios.ScenarioDeviceInformationService
+    :members:
+
+Heart-Rate Profile / Service
+============================
+
+.. autoclass:: balderhub.ble.scenarios.ScenarioHrProfileAdvertisements
+    :members:
+
+.. autoclass:: balderhub.ble.scenarios.ScenarioHeartRateService
+    :members:
