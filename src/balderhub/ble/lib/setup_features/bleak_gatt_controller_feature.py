@@ -113,7 +113,7 @@ class BleakGattControllerFeature(GattControllerFeature):
             self.create_and_start_thread()
 
         self._thread.run_in_async_thread_and_wait_for_result(
-            self._async_connect, mac_address, timeout_discover, timeout_connect
+            self._async_connect, mac_address, pair_on_connect, timeout_discover, timeout_connect
         )
 
     async def _async_unpair(self):
