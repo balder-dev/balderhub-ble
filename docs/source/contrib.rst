@@ -9,3 +9,7 @@ For ``balderhub-battery``
 
 .. autoclass:: balderhub.ble.contrib.battery.setup_features.BatteryLevelReader
     :members:
+
+.. autoclass:: balderhub.ble.contrib.battery.setup_features.DeviceActivityFeature
+    :members:
+
