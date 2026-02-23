@@ -7,4 +7,5 @@ pycryptodome>=3.17
 pylint==2.17.7
 balderhub-unit
 balderhub-heart
+balderhub-battery
 bleak
