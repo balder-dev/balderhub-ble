@@ -13,3 +13,12 @@ For ``balderhub-battery``
 .. autoclass:: balderhub.ble.contrib.battery.setup_features.DeviceActivityFeature
     :members:
 
+
+For ``balderhub-heart``
+=======================
+
+.. autoclass:: balderhub.ble.contrib.heart.setup_features.BpmValueReaderFeature
+    :members:
+
+.. autoclass:: balderhub.ble.contrib.heart.setup_features.RRValueReaderFeature
+    :members:
